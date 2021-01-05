@@ -2,12 +2,12 @@ module.exports = {
   title: 'WinBidPro 15 Docs',
   tagline: 'Explore How to Use WinBidPro 15',
   url: 'https://gdsestimating..com',
-  baseUrl: '/v15/',
+  baseUrl: '/winbidpro15-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'gdsestimating', // Usually your GitHub org/user name.
-  projectName: 'winbidpro-docs', // Usually your repo name.
+  projectName: 'winbidpro15-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'WinBidPro Docs',
@@ -63,7 +63,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/gdsestimating/winbidpro-docs',
+              href: 'https://github.com/gdsestimating/winbidpro15-docs',
             },
           ],
         },
