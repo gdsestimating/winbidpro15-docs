@@ -1,12 +1,12 @@
 module.exports = {
   title: 'WinBidPro 15 Docs',
   tagline: 'Explore How to Use WinBidPro 15',
-  url: 'https://docs.gdsestimating.com',
+  url: 'https://gdsestimating..com',
   baseUrl: '/v15/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'GDS Estimating', // Usually your GitHub org/user name.
+  organizationName: 'gdsestimating', // Usually your GitHub org/user name.
   projectName: 'winbidpro-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -49,16 +49,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Facebook',
+              href: 'https://facebook.com/gdsestimating',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/gdsestimating',
             },
           ],
         },
@@ -66,17 +62,13 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/gdsestimating/winbidpro-docs',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} GDS Estimating`,
     },
   },
   presets: [
@@ -88,12 +80,6 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
