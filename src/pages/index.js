@@ -12,28 +12,28 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        WinBidPro was designed to be easily installed and
-        used to get your bids out quickly and accurately!
+        Docusaurus was designed from the ground up to be easily installed and
+        used to get your website up and running quickly.
       </>
     ),
   },
   {
-    title: 'See What\'s New',
+    title: 'Focus on What Matters',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        We update WinBidPro often! See what we've been changing
-        in the latest releases.
+        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
+        ahead and move your docs into the <code>docs</code> directory.
       </>
     ),
   },
   {
-    title: 'Get Support',
+    title: 'Powered by React',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        We give free, quality support to all our customers. Just
-        give us a call or send us an email!
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
       </>
     ),
   },
@@ -60,7 +60,7 @@ function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Documentation for WinBidPro 15 by GDS Estimating">
+      description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>

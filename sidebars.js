@@ -1,29 +1,12 @@
 module.exports = {
   someSidebar: {
-    'Getting Started': ['getting-started'],
-    'Catalogs': [
-      'catalogs/catalogs_overview',
-      'catalogs/download',
-      'catalogs/sharing',
-      {
-        'Managing Data': [
-          'catalogs/manage/parts',
-          'catalogs/manage/framing-systems',
-          {
-            'Entrances': [
-              'catalogs/manage/entrances/overview',
-              'catalogs/manage/entrances/doors',
-              'catalogs/manage/entrances/doorframes'
-            ]
-          }
-        ]
-      },
-      'catalogs/create-your-own',
-    ],
-    'Editing Elevations': [
-      'editor/overview',
-      'editor/tool-tabs',
-      'editor/layout-tab'
-    ]
+    "Elevation Tabs": ['elevationtabs/layouttab','elevationtabs/splicetab',
+    `elevationtabs/doorstab`,`elevationtabs/unequaltab`, `elevationtabs/wmergetab`,
+  `elevationtabs/steptab`,`elevationtabs/raketab`,`elevationtabs/archtab`,
+  `elevationtabs/bulktab`, `elevationtabs/heighttab`, `elevationtabs/horztab`,
+  `elevationtabs/eqhoztab`, `elevationtabs/splittab`, `elevationtabs/mitertab`,
+  `elevationtabs/stoptab`, `elevationtabs/altverttab`, `elevationtabs/excludetab`,
+  `elevationtabs/glasstab`],
+    Docusaurus: ['doc1', 'doc2', 'doc3','testdoc'],
   },
 };

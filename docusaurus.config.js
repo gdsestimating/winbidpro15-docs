@@ -1,18 +1,18 @@
 module.exports = {
-  title: 'WinBidPro 15 Docs',
-  tagline: 'Explore How to Use WinBidPro 15',
-  url: 'https://gdsestimating..com',
-  baseUrl: '/winbidpro15-docs/',
+  title: 'My Site',
+  tagline: 'The tagline of my site',
+  url: 'https://your-docusaurus-test-site.com',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'gdsestimating', // Usually your GitHub org/user name.
-  projectName: 'winbidpro15-docs', // Usually your repo name.
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'WinBidPro Docs',
       logo: {
-        alt: 'WinBidPro',
+        alt: 'Logo',
         src: 'img/logo.png',
       },
       items: [
@@ -21,11 +21,6 @@ module.exports = {
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
-        },
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
         },
       ],
     },
@@ -49,12 +44,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Facebook',
-              href: 'https://facebook.com/gdsestimating',
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            },
+            {
+              label: 'Discord',
+              href: 'https://discordapp.com/invite/docusaurus',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/gdsestimating',
+              href: 'https://twitter.com/docusaurus',
             },
           ],
         },
@@ -62,13 +61,17 @@ module.exports = {
           title: 'More',
           items: [
             {
+              label: 'Blog',
+              to: 'blog',
+            },
+            {
               label: 'GitHub',
-              href: 'https://github.com/gdsestimating/winbidpro15-docs',
+              href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} GDS Estimating`,
+      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -80,6 +83,12 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
+        },
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
