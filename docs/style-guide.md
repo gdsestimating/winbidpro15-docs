@@ -2,7 +2,6 @@
 id: style-guide
 title: Style Guide
 sidebar_label: Style Guide
-slug: /
 ---
 
 Are our docs missing something and you want to help?
