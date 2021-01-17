@@ -12,28 +12,31 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We make it simple to start bidding jobs right away. Use pre-configured
+        systems and get takeoffs, shop drawings, and bids quick.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Flexible',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        WinBidPro will let you focus on the features you care about. Nearly
+        everything is flexible and optional. Just need Shop Drawings? Just want
+        cut lists optimized? Have your own way to calculate labor? WinBidPro
+        won't get in your way.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Use it with Teams',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Need to share catalog data, custom framing systems, and jobs?
+        WinBidPro can do that. Check out our docs on setting up a shared
+        data.
       </>
     ),
   },

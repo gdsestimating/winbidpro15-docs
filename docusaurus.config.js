@@ -1,13 +1,13 @@
 module.exports = {
   title: 'WinBidPro Docs',
-  tagline: 'Design it. Bid it. Build it.',
-  url: 'http://docs.gdsestimating.com',
+  tagline: 'Optimize your Bid Process, Focus on Building.',
+  url: 'https://docs.gdsestimating.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'gdsestimating', // Usually your GitHub org/user name.
-  projectName: 'winbidpro15-docs', // Usually your repo name.
+  organizationName: 'gdsestimating',
+  projectName: 'winbidpro15-docs',
   themeConfig: {
     navbar: {
       title: 'WinBidPro Docs',
@@ -63,7 +63,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} GDS Estimating`,
     },
   },
   presets: [
@@ -72,7 +72,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
             'https://github.com/gdsestimating/winbidpro15-docs/edit/trunk',
         },
