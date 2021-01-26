@@ -1,5 +1,5 @@
 ---
-id: testdoc
+id: sharingcatalogs
 title: Sharing Catalogs on a Network/Server Drive
 sidebar_label: Sharing Catalogs
 
