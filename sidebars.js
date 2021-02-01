@@ -25,7 +25,8 @@ module.exports = {
       'glossary',
       'optimizer',
       'importexportjobs',
-      'cansystems'
+      'cansystems',
+      'defaultcad',
     ],
   },
 };
