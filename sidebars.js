@@ -27,6 +27,7 @@ module.exports = {
       'importexportjobs',
       'cansystems',
       'defaultcad',
+      'dimensionlabels',
     ],
   },
 };
