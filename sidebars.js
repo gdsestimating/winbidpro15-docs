@@ -25,9 +25,10 @@ module.exports = {
       'glossary',
       'optimizer',
       'importexportjobs',
-      'cansystems',
-      'defaultcad',
-      'dimensionlabels',
+      'misc/cansystems',
+      'misc/defaultcad',
+      'misc/dimensionlabels',
+      'misc/doorframesettings',
     ],
   },
 };

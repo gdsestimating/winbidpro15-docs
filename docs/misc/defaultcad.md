@@ -15,30 +15,30 @@ You can manually set the program that opens DWG or DXF files on your PC. This is
 
 You may see the following message when you click the CAD link in the WinBidPro menu tree. If so, here is how to get it working properly.
 
-![img](../static/img/default_cad/defaultcad1.png)
+![img](../../static/img/default_cad/defaultcad1.png)
 
 ## Choose the program that opens DWG files
 
 ### Step 1
  Open the Windows File Explorer and navigate to Local Disk C: then open the WinBidPro folder.
 
-![img](../static/img/default_cad/defaultcad2.png)
+![img](../../static/img/default_cad/defaultcad2.png)
 
 ### Step 2
  Look for a file called CoverPage11x17.dwg. Double-click on this file and you will see something like the images below.
 
 
 #### In Windows 10
-![img](../static/img/default_cad/defaultcad3.png)
+![img](../../static/img/default_cad/defaultcad3.png)
 
 
 #### In Windows 7
-![img](../static/img/default_cad/defaultcad4.png)
+![img](../../static/img/default_cad/defaultcad4.png)
 
 ### Step 3
 Click the Select a program from ... option and click OK Then the following window will open.
 
-![img](../static/img/default_cad/defaultcad5.png)
+![img](../../static/img/default_cad/defaultcad5.png)
 
 
 ### Step 4
