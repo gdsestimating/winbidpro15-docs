@@ -21,14 +21,23 @@ module.exports = {
       'elevationtabs/glasstab'
     ],
     'Misc': [
-      'sharingcatalogs',
-      'glossary',
+      'style-guide',
       'optimizer',
-      'importexportjobs',
       'misc/cansystems',
-      'misc/defaultcad',
       'misc/dimensionlabels',
       'misc/doorframesettings',
+      'misc/transomglasssizing',
+      `misc/elevationdescriptions`,
+      'glossary',
     ],
+    'Jobs & Catalogs': [
+      'sharingcatalogs',
+      'importexportjobs',
+    ],
+    'Shop Drawings & CAD': [
+      'misc/defaultcad',
+      'misc/titleblocks',
+    ],
+
   },
 };
