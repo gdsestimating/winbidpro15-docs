@@ -36,8 +36,7 @@ module.exports = {
       `misc/elevationdescriptions`,
       'glossary',
     ],
-    'Jobs & Catalogs': [
-      'sharingcatalogs',
+    'Jobs': [
       'importexportjobs',
     ],
     'Shop Drawings & CAD': [

@@ -1,10 +1,10 @@
 ---
 id: installing-on-a-server
 title: Installing on a Server
-sidebar_label: Remote Server
+sidebar_label: Installing on Server
 ---
 
-## Installing on a Server
+## Deploying WinBidPro to your Server
 
 This is considered an advanced scenario and this article assumes you are fairly knowledgeable about IT topics such as User Profiles, Group Policies, Roaming data, etc. This article is meant for IT professionals to understand how to deploy WinBidPro.
 
@@ -16,16 +16,16 @@ This is considered an advanced scenario and this article assumes you are fairly 
 
 ### Installing WinBidPro
 
-WinBidPro installs **per user**, not machine wide. Because of this, it does not require admin privileges. This allows it to update itself which it does automatically while the program is running. There is not currently an opt-out setting for auto-updates.
+WinBidPro installs **per user**, not machine wide. This allows it to update itself which it does automatically while the program is running. There is not currently an opt-out setting for auto-updates.
 
 :::note
 The WinBidPro installer is created using Squirrel -- an open-source project. It's fast, simple, and installs with only user permissions rather than admin permissions. 
 :::
 
-There are two options to initially install the program:
+There are two options to initially install the program for multiple users:
 
 1. (*recommended*) Using the "WinBidPro Deployment Tool"
-2. Log in as each user and run the normal installer
+2. Log in as each user and run the normal installer for each.
 
 ### Using the WinBidPro Deployment Tool
 
@@ -43,10 +43,10 @@ The deployment tool deploys WinBidPro for **all** users on login. See the "deplo
 
 When it is not desired to deploy the program for all users, the Deployment tool can still be used by editing the registry a little. Follow these steps:
 
-1. Install the Deplyoment program
+1. Install the WinBidPro Deployment Tool
 2. Copy the WinBidProDeployment key/value from `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run`
-3. Install this registry key for GDS users via a Group Policy at the location `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run`
-4. ​​Log in as one of the users and it should install on login and hopefully we're good to go.
+3. Install this registry key for WinBidPro users via a Group Policy at the location `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run`
+4. ​​Log in as one of the users and it should install
 
 ### Working with Multiple Server Nodes
 
