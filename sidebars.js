@@ -1,5 +1,10 @@
 module.exports = {
   someSidebar: {
+    'Setup': [
+      'setup/intro',
+      'setup/sharing-catalogs',
+      'setup/installing-on-a-server',
+    ],
     'Elevation Editor Tabs': [
       'elevationtabs/layouttab',
       'elevationtabs/splicetab',
@@ -22,6 +27,7 @@ module.exports = {
     ],
     'Misc': [
       'style-guide',
+      'glossary',
       'optimizer',
       'misc/cansystems',
       'misc/dimensionlabels',
