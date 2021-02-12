@@ -34,6 +34,7 @@ module.exports = {
       'misc/doorframesettings',
       'misc/transomglasssizing',
       `misc/elevationdescriptions`,
+      `misc/basiccutlists`,
       'glossary',
     ],
     'Jobs': [
