@@ -5,45 +5,51 @@ module.exports = {
       'setup/sharing-catalogs',
       'setup/installing-on-a-server',
     ],
-    'Elevation Editor Tabs': [
-      'elevationtabs/layouttab',
-      'elevationtabs/splicetab',
-      'elevationtabs/doorstab',
-      'elevationtabs/unequaltab',
-      'elevationtabs/wmergetab',
-      'elevationtabs/steptab',
-      'elevationtabs/raketab',
-      'elevationtabs/archtab',
-      'elevationtabs/bulktab',
-      'elevationtabs/heighttab',
-      'elevationtabs/horztab',
-      'elevationtabs/eqhoztab',
-      'elevationtabs/splittab',
-      'elevationtabs/mitertab',
-      'elevationtabs/stoptab',
-      'elevationtabs/altverttab',
-      'elevationtabs/excludetab',
-      'elevationtabs/glasstab'
-    ],
-    'Misc': [
-      'style-guide',
-      'glossary',
-      'optimizer',
-      'misc/cansystems',
+    'Drawing Elevations': [
+      {
+        'Editor Tabs': [
+          'elevationtabs/layouttab',
+          'elevationtabs/splicetab',
+          'elevationtabs/doorstab',
+          'elevationtabs/unequaltab',
+          'elevationtabs/wmergetab',
+          'elevationtabs/steptab',
+          'elevationtabs/raketab',
+          'elevationtabs/archtab',
+          'elevationtabs/bulktab',
+          'elevationtabs/heighttab',
+          'elevationtabs/horztab',
+          'elevationtabs/eqhoztab',
+          'elevationtabs/splittab',
+          'elevationtabs/mitertab',
+          'elevationtabs/stoptab',
+          'elevationtabs/altverttab',
+          'elevationtabs/excludetab',
+          'elevationtabs/glasstab'
+        ],
+      },
       'misc/dimensionlabels',
+    ],
+    'Figuring Parts': [
+      `misc/basiccutlists`,
+      'optimizer',
+    ],
+    'Guides': [
+      'importexportjobs',
+      'misc/cansystems',
       'misc/doorframesettings',
       'misc/transomglasssizing',
-      `misc/elevationdescriptions`,
-      `misc/basiccutlists`,
-      'glossary',
-    ],
-    'Jobs': [
-      'importexportjobs',
     ],
     'Shop Drawings & CAD': [
       'misc/defaultcad',
       'misc/titleblocks',
     ],
-
+    'Misc': [
+      'glossary',
+    ],
+    'Contributing to our Docs': [
+      'style-guide',
+      'mdx'
+    ]
   },
 };
