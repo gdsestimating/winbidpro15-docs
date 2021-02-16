@@ -52,3 +52,24 @@ If you need multiple cut lengths of the same part number, hitting the enter or t
 The Parts List will open and you can either browse for a part or add a new part.
 
 ![img](../../static/img/basic_cutlists/basiccutlists6.png)
+
+### Browsing the Parts List
+
+In the Parts List, you can filter the list by clicking any of the columns (like Multiplier, Stock Length, Part Type, etc.). For example below we filter by `Part Type` and click `Gasket`.
+
+![img](../../static/img/basic_cutlists/basiccutlists7.gif)
+
+We can also do a text search, for example below we type "filler" into the search bar.
+
+![img](../../static/img/basic_cutlists/basiccutlists8.png)
+
+
+### Adding a New Part
+
+To add your own parts, click `Add New` in the bottom left corner of the Parts List window. Enter your part's details in the Part Details window and click `Save`
+
+![img](../../static/img/basic_cutlists/basiccutlists9.png)
+
+
+:::note Just like an elevation, the parts in your basic cut list will be optimized by the Optimizer.
+:::
