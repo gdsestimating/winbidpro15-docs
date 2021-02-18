@@ -31,8 +31,9 @@ module.exports = {
       'misc/dimensionlabels',
     ],
     'Figuring Parts': [
-      `misc/basiccutlists`,
+      'misc/basiccutlists',
       'optimizer',
+      'misc/multipliers',
     ],
     'Guides': [
       'importexportjobs',
