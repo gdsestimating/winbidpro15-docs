@@ -89,7 +89,6 @@ Modified cuts will be bolded in the cut list, and will be classified as `Modifie
 ![img](../static/img/optimizer/optimizer9.gif)
 
 ### Deleting a Cut
-​
 
 To delete a cut, highlight the cut and click `Delete Cut` at the bottom of the Optimizer Window.
  
