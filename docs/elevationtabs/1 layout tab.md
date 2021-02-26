@@ -2,7 +2,6 @@
 id: layouttab
 title: Layout Tab
 sidebar_label: Layout Tab
-slug: /
 ---
 
 

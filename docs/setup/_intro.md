@@ -2,6 +2,7 @@
 id: intro
 title: Setting up WinBidPro
 sidebar_label: Intro
+slug: /
 ---
 
 There are 3 common setups for WinBidPro:

@@ -15,7 +15,7 @@ It is important to note the difference between a network/server drive, and a clo
 
 ---
 
-### Step 1
+### Step 1 - Locating database files
 
 Locate your Master.mdb & Hardware2.mdb files.
 
@@ -29,7 +29,7 @@ If you have performed a fresh install of WinBidPro version 15.10 or later, your 
 
 :::
 ---
-### Step 2
+### Step 2 - Creating a folder on your network drive
 
 Create a new folder on your network drive. For this example we’ll name it “WinBidPro Catalogs”.
 
@@ -37,7 +37,7 @@ Create a new folder on your network drive. For this example we’ll name it “W
 
 ---
 
-### Step 3
+### Step 3 - Copying database files onto your network drive
 
 Copy Master.mdb and Hardware2.mdb into the folder you created on your network drive.
 
@@ -45,7 +45,7 @@ Copy Master.mdb and Hardware2.mdb into the folder you created on your network dr
 
 ---
 
-### Step 4
+### Step 4 - Setting location of Master.mdb
 
 In WinBidPro, you will need to set the new location of your Master.mdb file.
 1. Click `System Defaults` in the menu on the left
@@ -58,7 +58,7 @@ Doing this tells WinBidpro to download new catalogs into the folder that your Ma
 
 ---
 
-### Step 5
+### Step 5 - Moving catalogs onto your network drive
 
 If you want to share catalogs or jobs that have already been used or are currently being used, copy them from the WinBidPro folder on your local drive onto the new folder on your network drive.
 
@@ -72,7 +72,7 @@ If you want to share catalogs or jobs that have already been used or are current
 
 ---
 
-### Step 6
+### Step 6 - Setting location of catalogs
 
 In WinBidPro, we now need to set the new location of the catalogs on the network drive.
 
@@ -87,7 +87,7 @@ Now we can see the file location for the Oldcastle catalog is set to the network
 
 ---
 
-### Step 7
+### Step 7 - Sharing catalogs
 
 The final step is to let WinBidPro know which catalogs will be shared. To do this, click the catalog that you will be sharing, then click `Share Catalog`. We can now see that the box in the “Shared” column is highlighted.
 

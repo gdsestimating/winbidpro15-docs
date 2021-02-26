@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'winbidpro15-docs',
   themeConfig: {
     navbar: {
-      title: 'WinBidPro Docs',
+      title: 'WinBidPro',
       logo: {
         alt: 'Logo',
         src: 'img/logo.png',
