@@ -1,6 +1,6 @@
 module.exports = {
   title: 'WinBidPro Docs',
-  tagline: 'Optimize your Bid Process, Focus on Building.',
+  tagline: 'Welcome to WinBidPro Documentation. Click below to start learning our software.',
   url: 'https://docs.gdsestimating.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
