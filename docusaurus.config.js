@@ -9,6 +9,16 @@ module.exports = {
   organizationName: 'gdsestimating',
   projectName: 'winbidpro15-docs',
   themeConfig: {
+    algolia: {
+      apiKey: '4267f131e5a63d259958137e7bd91df3',
+      indexName: 'winbidpro',
+
+      // Optional: see doc section bellow
+      contextualSearch: true,
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+    },
     navbar: {
       title: 'WinBidPro',
       logo: {
