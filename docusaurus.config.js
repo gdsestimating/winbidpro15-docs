@@ -12,9 +12,11 @@ module.exports = {
     algolia: {
       apiKey: '4267f131e5a63d259958137e7bd91df3',
       indexName: 'winbidpro',
+      inputSelector: '### REPLACE ME ####',
+      algoliaOptions: { 'facetFilters': ["type:$TYPE"] },
 
       // Optional: see doc section bellow
-      contextualSearch: true,
+      contextualSearch: false,
 
       // Optional: Algolia search parameters
       searchParameters: {},
