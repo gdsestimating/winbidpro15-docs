@@ -44,6 +44,7 @@ module.exports = {
     'Shop Drawings & CAD': [
       'misc/defaultcad',
       'misc/titleblocks',
+      'misc/wbpcad',
     ],
     'Misc': [
       'glossary',
