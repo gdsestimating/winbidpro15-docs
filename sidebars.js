@@ -42,9 +42,9 @@ module.exports = {
       'misc/transomglasssizing',
     ],
     'Shop Drawings & CAD': [
-      'misc/defaultcad',
-      'misc/titleblocks',
-      'misc/wbpcad',
+      'drawings-and-cad/defaultcad',
+      'drawings-and-cad/titleblocks',
+      'drawings-and-cad/wbpcad',
     ],
     'Misc': [
       'glossary',
