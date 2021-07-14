@@ -2,7 +2,6 @@
 id: framing-systems
 title: Changing Parts in Framing Systems
 ---
-
 The following videos explain how to properly change parts in a framing system.
 
 ---
