@@ -31,6 +31,7 @@ module.exports = {
       'misc/dimensionlabels',
     ],
     'Figuring Parts': [
+      'manage/framing-systems',
       'misc/basiccutlists',
       'optimizer',
       'misc/multipliers',
