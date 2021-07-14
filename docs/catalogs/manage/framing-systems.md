@@ -1,5 +1,5 @@
 ---
-id: framingsystems
+id: framing-systems
 title: Changing Parts in Framing Systems
 ---
 
