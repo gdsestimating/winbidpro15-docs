@@ -29,6 +29,7 @@ module.exports = {
         ],
       },
       'misc/dimensionlabels',
+      'misc/expansionmullions',
     ],
     'Figuring Parts': [
       'framing-systems',
